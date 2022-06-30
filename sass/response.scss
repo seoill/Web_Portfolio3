@@ -59,6 +59,15 @@
         margin: 0 0 0 50px;
       }
       .button{padding: 40px 0 0 150px;}
+
+    }
+    .slide-box {
+      left: 15%;
+      .page-box ul li a i{color: #fff;}
+      .page-box ul li span {
+        color: #ccc;
+        &.now-page{color: #fff;}
+      }
     }
   }
   #wrap #main #section2 .container .gap .wrap .content-area .slide-box .page-box {
