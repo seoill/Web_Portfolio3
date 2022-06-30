@@ -72,6 +72,18 @@
   #wrap #main #section2 .container .gap .wrap .content-area .info-box .button {
     padding: 40px 0 0 150px;
   }
+  #wrap #main #section2 .container .gap .wrap .content-area .slide-box {
+    left: 15%;
+  }
+  #wrap #main #section2 .container .gap .wrap .content-area .slide-box .page-box ul li a i {
+    color: #fff;
+  }
+  #wrap #main #section2 .container .gap .wrap .content-area .slide-box .page-box ul li span {
+    color: #ccc;
+  }
+  #wrap #main #section2 .container .gap .wrap .content-area .slide-box .page-box ul li span.now-page {
+    color: #fff;
+  }
   #wrap #main #section2 .container .gap .wrap .content-area .slide-box .page-box {
     left: 40%;
   }
