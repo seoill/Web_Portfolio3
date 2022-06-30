@@ -9,6 +9,7 @@
     }
     header(){
       let btnClick=false;
+      let click=false;
 
       headerSizeFn();
       
@@ -50,15 +51,16 @@
         mouseleave:function(){
           $(this).children('.sub').stop().slideUp(300);
         },
+        mousedown:function(){
+          $(this).children('.sub').stop().slideToggle(300);
+        },
         focusin:function(){
           $(this).children('.sub').stop().slideDown(300);
         },
         focusout:function(){
           $(this).children('.sub').stop().slideUp(300);
         },
-        click:function(){
-          $(this).children('.sub').stop().slideToggle(300);
-        }
+
       });
 
       $(window).resize(function(){

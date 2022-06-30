@@ -484,6 +484,7 @@ $font-color:(
               position: relative;
               font-size: 100px; font-weight: 700;
               text-transform: uppercase;
+              br{display: none;}
               &::after{
                 content: ' '; display: block;
                 position: absolute; right: 0; top: 50%;

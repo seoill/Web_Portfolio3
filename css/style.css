@@ -680,6 +680,10 @@
   text-transform: uppercase;
 }
 
+#wrap #main #section2 .container .gap .wrap h2 br {
+  display: none;
+}
+
 #wrap #main #section2 .container .gap .wrap h2::after {
   content: ' ';
   display: block;

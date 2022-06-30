@@ -15,6 +15,9 @@
   #wrap #main #section2 .container .gap .wrap .content-area .info-box .top, #wrap #main #section2 .container .gap .wrap .content-area .info-box .bot, #wrap #main #section2 .container .gap .wrap .content-area .info-box .button {
     padding: 0 0 0 100px;
   }
+  #wrap #main #section2 .container .gap .wrap .content-area .info-box .button {
+    padding: 40px 0 0 150px;
+  }
 }
 
 @media all and (max-width: 1335px) {
@@ -51,7 +54,7 @@
     padding: 0;
   }
   #wrap #main #section2 .container .gap .wrap h2 {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 60px;
   }
   #wrap #main #section2 .container .gap .wrap h2::after {
     display: none;
@@ -88,7 +91,7 @@
 
 @media all and (max-width: 1000px) {
   #wrap #header .container .gap .wrap .bot-box .box-gap {
-    padding: 0 20px;
+    padding: 0 30px;
   }
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li {
     padding: 0 15px;
@@ -207,6 +210,15 @@
     display: inline;
     margin: 0 10px;
   }
+  #wrap #main #section2 .container .gap .wrap {
+    height: auto;
+  }
+  #wrap #main #section2 .container .gap .wrap h2 {
+    height: auto;
+  }
+  #wrap #main #section2 .container .gap .wrap h2 br {
+    display: block;
+  }
   #wrap #main #section2 .container .gap .wrap .content-area {
     display: block;
     height: 450px;
@@ -272,10 +284,15 @@
   }
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li {
     width: 100vw;
-    padding: 5px 0;
+    padding: 0;
     border-top: 0.5px solid #ddd;
-    line-height: 32px;
+    line-height: 40px;
     text-align: center;
+  }
+  #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li .sub {
+    position: relative;
+    width: 100vw;
+    border-top: 1px solid #ccc;
   }
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li .sub.sub1 .menu-box .menu-wrap {
     -webkit-box-orient: vertical;
@@ -287,7 +304,7 @@
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li .sub.sub1 .menu-box .menu-wrap .left {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0.5px solid #eee;
   }
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li .sub.sub1 .menu-box .menu-wrap .left ul li {
     line-height: 32px;
@@ -310,6 +327,42 @@
   #wrap #header .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu > ul > li .sub.sub1 .menu-box .menu-wrap .right ul li .col-gap .col-wrap img {
     width: 80%;
   }
+  #wrap #header.on .container .gap .wrap .bot-box {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.logo {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.logo h1 {
+    height: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.logo h1 > a {
+    height: 30px;
+    width: auto;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.logo h1 > a svg {
+    width: 30px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.menu {
+    top: 60px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.quick ul li a {
+    width: 30px;
+    height: 30px;
+  }
+  #wrap #header.on .container .gap .wrap .bot-box .box-gap .box-wrap #mainNav > ul > li.quick ul li a svg {
+    width: 30px;
+    height: 25px;
+  }
   #wrap #main #section1 .container .gap .wrap .video-area .content .info-box ul li h3 {
     padding: 0 30px;
     text-align: center;
@@ -318,7 +371,7 @@
     font-size: 40px;
   }
   #wrap #main #section1 .container .gap .wrap .video-area .content .button-box {
-    padding: 20px;
+    padding: 10px;
   }
   #wrap #main #section1 .container .gap .wrap .video-area .content .button-box a {
     width: 130px;
@@ -326,10 +379,11 @@
   #wrap #main #section2 .container .gap .wrap h2 {
     font-size: 82px;
     line-height: 80px;
+    padding: 0 0 0 30px;
   }
   #wrap #main #section2 .container .gap .wrap .content-area .info-box {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     margin: 0;
   }
   #wrap #main #section2 .container .gap .wrap .content-area .info-box .top {
@@ -351,11 +405,11 @@
     margin: 0;
   }
   #wrap #main #section3 .container .gap .wrap .title-area {
-    padding: 0 20px;
+    padding: 0 30px;
     margin-bottom: 20px;
   }
   #wrap #main #section3 .container .gap .wrap .gallery-area {
-    padding: 0 20px;
+    padding: 0 30px;
   }
   #wrap #main #section3 .container .gap .wrap .gallery-area .gallery-box {
     width: 100%;
@@ -386,7 +440,7 @@
     padding: 20px 0 0 0;
   }
   #wrap #footer .container .gap {
-    padding: 20px;
+    padding: 30px;
   }
   #wrap #footer .container .gap .wrap .top-area > ul > li {
     width: 100%;
@@ -402,11 +456,14 @@
   }
   #wrap #footer .container .gap .wrap .bot-area > ul > li:nth-child(1) ul li a {
     font-size: 12px;
+    letter-spacing: -1px;
   }
   #wrap #footer .container .gap .wrap .bot-area > ul > li:nth-child(2) span {
     font-size: 12px;
+    letter-spacing: -1px;
   }
   #wrap #footer .container .gap .wrap .bot-area > ul > li:nth-child(3) p {
     font-size: 12px;
+    letter-spacing: -1px;
   }
 }
